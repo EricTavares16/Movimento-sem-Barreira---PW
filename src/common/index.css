@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+a, a:active, a:visited, a:link {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+/*Cabeçalho CSS------------------------------------------------------------------------------------------------------ */
+
+header{
+    display: flex;
+    align-items: center;
+
+    width: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 14pt;
+    font-weight: 600;
+
+    margin-left: 10vw;
+
+    width: 300px;
+}
+
+a{
+    animation: slide-in_nav  1.5s ease-in-out;
+    transition: transform 1.5s ease;
+}
+
+@keyframes slide-in_nav 
+{
+    from{
+    transform: translateX(-100%);
+    opacity: 0;
+}       
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+a:hover{
+    border-bottom: 1px solid #EF345F;
+}
