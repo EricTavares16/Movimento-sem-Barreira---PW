@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="div_form">
+                <form action="">
+                    <div class="text_area_div">
+                        <h3>Consulte a escola desejada no nosso</h3>
+                        <h2>Banco de Dados</h2>
+                    </div>
+                    <div class="input_area_div">
+
+                        <input type="text" placeholder="Nome da Unidade de Escola">
+                    </div>
+                    <div class="input_area_div">
+
+                        <input type="text" placeholder="Múnicipio">
+                    </div>
+                    <div class="input_area_div">
+
+                        <input list="defType" placeholder="Tipo de Deficiência"/>
+                        <datalist id="defType">
+                            <option value="visual" selected></option>
+                            <option value="auditiva"></option>
+                            <option value="fisica"></option>
+                            <option value="intelectual"></option>
+                            <option value="multipla"></option>
+                            <option value="autismo"></option>
+                            <option value="sindrome de down"></option>
+                            <option value="paralisia cerebral"></option>
+                            <option value="psicossocial"></option>
+                            <option value="surdocegueira"></option>
+                        </datalist>
+                    </div>
+                    <div class="input_area_div radio_opts">
+
+                        
+                        <label for="rede_public"><input type="radio" name="type_school" class="type_school_select" id="rede_public"> Rede Pública</label>
+                        
+                        <label for="rede_priv"><input type="radio" name="type_school" class="type_school_select" id="rede_priv"> Rede Privada</label>
+                    </div>
+                    <div class="input_area_div">
+
+                        <button type="submit">Pesquisar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="div_maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.177960297425!2d-46.70206572362906!3d-23.66959306557935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5036539648d5%3A0x78501a72680ea23a!2sCentro%20Universit%C3%A1rio%20Senac%20-%20Santo%20Amaro!5e0!3m2!1spt-BR!2sbr!4v1728758567252!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </main>
 </body>
 </html>
