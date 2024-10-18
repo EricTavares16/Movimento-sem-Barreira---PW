@@ -75,7 +75,7 @@ body{
     text-align: center;
    accent-color: #EF345F;
 }
-.div_form .input_area_div button{
+.div_form .input_area_div .button{
     width: 174px;
     height: 36px;
     background-color: #EF345F;
@@ -90,7 +90,7 @@ body{
    height: 458px;
    border: #EF345F 1px solid;
 }
-.div_maps iframe{
-    width: 100%;
+#map{
+    /* width: 100px; */
     height: 100%;
 }
