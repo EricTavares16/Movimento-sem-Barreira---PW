@@ -58,3 +58,103 @@ a{
 a:hover{
     border-bottom: 1px solid #EF345F;
 }
+
+/*Rodapé CSS------------------------------------------------------------------------------------------------------ */
+
+.border {
+    border: 1px solid red;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+
+.containerRodapé{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('../Assets/Images/rodape.svg');
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 270px;
+    z-index: -2;
+    font-weight: 700;
+}
+
+.ContainerConteudo{
+    display: flex;
+    position: relative;
+    width: 1300px;
+    height: 270px;
+    z-index: -2;
+    font-weight: 700;
+}
+.containerRodapé >p{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: start;
+    width: 100%;  
+    height: 200px;
+    font-size: 7pt;  
+    
+}
+
+.eclipseRodape {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 10px;
+}
+
+.container1Rodape {
+        padding-top: 97px;
+        padding-left: 95px;
+        width: 50%;
+        height: 100%;
+}
+.container2Rodape {
+    width: 25%;
+    justify-content: baseline;
+    flex-direction: row;
+    height: 100%;
+
+}
+.containe3Rodape {
+    width: 25%;
+    justify-content: baseline;
+    height: 100%;
+
+}
+
+.copyrightRodape{
+    flex-direction: column;
+    
+}
+
+.Institucional{
+    padding-top: 104px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: white ;
+}
+.EspaçamentoRodape{
+    padding-bottom: 4px;
+}
+
+.titulofooter {
+    font-weight: bold;
+    color: white;
+}
+.IconsRodapeSVG {
+    padding-top: 20px;
+}
+
+span{
+    color: white;
+}
+
