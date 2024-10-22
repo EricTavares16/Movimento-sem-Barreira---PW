@@ -55,35 +55,7 @@ body{
     font-weight: 600;
     text-transform: capitalize;
 }
-.div_form .input_area_div.radio_opts {
-    margin: 40px 0;
-    
-}
-.div_form .input_area_div label{
-    margin-right: 30px;
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-}
-.div_form .input_area_div label input{
-    margin-right: 8px;
-    text-align: center;
-   accent-color: rgba(0, 0, 0, 0.1);
 
-}
-.div_form .input_area_div label input:checked{
-    margin-right: 8px;
-    text-align: center;
-   accent-color: #EF345F;
-}
-.div_form .input_area_div .button{
-    width: 174px;
-    height: 36px;
-    background-color: #EF345F;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 20px;
-    font-weight: bold;
-}
 .div_maps{
    max-width: calc(100% - 590px);
    width: 698px;
