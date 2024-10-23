@@ -1,11 +1,95 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
+    <link rel="stylesheet" href="../../common/index.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
 </head>
 <body>
-    
+    <header>
+        <div>
+            <img src="../../Assets/Images/logo.png" alt="">
+        </div>
+        <nav>
+            <a href="../Home/index.html">Home</a>
+            <a href="../Sobre/index.html">Sobre Nós</a>
+            <a href="../Consulta/index.html">Consulta</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="div_form">
+                <form method="get">
+                    <div class="text_area_div">
+                        <h3>Consulte a escola desejada no nosso</h3>
+                        <h2>Banco de Dados</h2>
+                    </div>
+                    <div class="input_area_div">
+                        
+                        <input type="text" placeholder="Digite o CEP de sua residencia" id="CEPFromHome">
+                    </div>
+                    <div class="input_area_div">
+                        
+                        <input type="button" class="button" id="btnPesq" value="Pesquisar">
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="div_maps">
+                <div id="map">
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+
+        <div class="containerRodapé">
+            <div class="ContainerConteudo">
+                <div class="container1Rodape">
+                    <h2> Projeto Movimento <span class="titulofooter">sem barreiras</span></h2>
+                    <div class="IconsRodapeSVG">
+                        <img src="../../Assets/Images/IconsRodape.svg" alt="">
+                    </div>
+                </div>
+                <div class="container2Rodape">
+                    <div>
+                        <h4 class="Institucional">INSTITUCIONAL</h4>
+                        <p class="EspaçamentoRodape">Sobre Nos</p>
+                        <p class="EspaçamentoRodape">Historia</p>
+                        <p class="EspaçamentoRodape">Entidades Parceiras</p>
+                    </div>
+                </div>
+                <div class="containe3Rodape">
+                    <div>
+                        <h4 class="Institucional">CERTIFICAÇÕES E CREDENCIAMENTO</h4>
+                        <p class="EspaçamentoRodape">AAIS</p>
+                        <p class="EspaçamentoRodape">Ouvidores</p>
+                        <p class="EspaçamentoRodape">Dirigentes / Previc</p>
+                        <p class="EspaçamentoRodape">Certificações do PQO - B3</p>
+                    </div>
+                    <div class="eclipseRodape">
+                        <img src="../../Assets/Images/Ellipse torta.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <p>© Projeto Movimento sem barreiras 2024</p>
+
+        </div>
+
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>

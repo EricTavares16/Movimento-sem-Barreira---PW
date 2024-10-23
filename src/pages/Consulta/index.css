@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+.container{
+    max-width: 1480px;
+    height: 587px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+.div_form{
+    width: 590px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    /* background-color: aqua; */
+   
+}
+.div_form .text_area_div{
+    height: 84px;
+    width: 100%;
+}
+.div_form .text_area_div h3{
+    color: rgba(0, 0, 0, 0.7);
+}
+.div_form .text_area_div h2{
+    color: #EF345F;
+    font-weight: 900;
+    font-size: 28px;
+    padding-top: 8px;
+}
+.div_form .input_area_div{
+    width: 460px;
+    margin-bottom:16px ;
+}
+.div_form .input_area_div input[type="text"]{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 456px;
+    height: 36px;
+    padding: 3px 8px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+}
+.div_form .input_area_div input[type="text"]:focus{
+    outline: 0.6px solid #EF345F;
+    border: none;
+    border-radius: 1px;
+
+}
+.div_form .input_area_div .button{
+    width: 174px;
+    height: 36px;
+    background-color: #EF345F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.div_maps{
+   max-width: calc(100% - 590px);
+   width: 698px;
+   height: 458px;
+   border: #EF345F 1px solid;
+}
+#map{
+    /* width: 100px; */
+    height: 100%;
+}
