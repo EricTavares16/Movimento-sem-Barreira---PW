@@ -77,6 +77,19 @@ body{
    height: 458px;
    border: #EF345F 1px solid;
 }
+.div_maps .name_address{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_maps .name_address .text_address{
+    padding-top: 15px;
+    color: #EF345F;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 #map{
     /* width: 100px; */
     height: 100%;
