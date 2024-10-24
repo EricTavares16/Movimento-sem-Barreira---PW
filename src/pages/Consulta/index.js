@@ -37,8 +37,9 @@ function pesqCEP() {
                     } else {
                         // Aqui tá atualizando o map que vai ser visualizado
                         map.setView([lati, longe], 20);
+                        textAddress.innerHTML = `<p class="text_address">${data.address}, ${data.district} - ${data.city} , ${data.state} - ${data.cep}</p>`
                     }
-
+                    
                     // Cria o PIN para indentificar onde está você!
                     const marker = L.marker([lati, longe]);
                     marker.addTo(map);
